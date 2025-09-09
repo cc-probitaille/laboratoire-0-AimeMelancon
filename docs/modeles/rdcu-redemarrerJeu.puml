@@ -1,1 +1,24 @@
 // Vous devez complétéer ce fichier
+@startuml RDCU pour le scénario RedémarrerJeu
+title RDCU pour le scénario RedémarrerJeu
+skinparam style strictuml
+skinparam packageStyle rect
+
+participant ":JeuDeDes" as JDD
+participant "joueurs:\nMap<String, Joueur>" as J
+
+-> JDD: redemarrerJeu()
+
+note right of JDD
+Selon Contrôleur
+(JeuDeDés est
+l'objet racine)
+end note
+
+JDD -> J : clear()
+
+note right of J
+selon Expert
+end note
+
+@enduml
