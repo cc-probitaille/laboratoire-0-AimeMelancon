@@ -74,15 +74,15 @@ Vous pouvez cocher chaque étape dans la liste suivante:
 
 ### 0. préparer votre machine pour ce tutoriel;
 
-- [ ] jeter un œil sur la [documentation du squelette](docs/Squelette.md)
+- [x] jeter un œil sur la [documentation du squelette](docs/Squelette.md)
 
-- [ ] [installer node.js](https://nodejs.org/en/download/) sur votre machine
+- [x] [installer node.js](https://nodejs.org/en/download/) sur votre machine
 
-- [ ] [installer VSCode](https://code.visualstudio.com/Download) sur votre machine
+- [x] [installer VSCode](https://code.visualstudio.com/Download) sur votre machine
 
-- [ ] [installer l'extension PlantUML dans VSCode](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml)
+- [x] [installer l'extension PlantUML dans VSCode](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml)
 
-- [ ] configurer l'extension PlantUML pour utiliser plantuml.com comme serveur en ajoutant/modifiant les "User settings" en VSCode:
+- [x] configurer l'extension PlantUML pour utiliser plantuml.com comme serveur en ajoutant/modifiant les "User settings" en VSCode:
 
   ```json
       "plantuml.server": "https://www.plantuml.com/plantuml",
@@ -91,14 +91,14 @@ Vous pouvez cocher chaque étape dans la liste suivante:
 
   (Si vous avez les droits d'administrateur Windows) installer [GraphViz](http://www.graphviz.org/download/) pour utiliser un serveur local de PlantUML plutôt que le serveur sur Internet et configurer `"plantuml.render": "Local"` selon la [documentation](https://github.com/qjebbs/vscode-plantuml#about-render).
 
-- [ ] [installer GitHub Desktop](https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/installing-and-authenticating-to-github-desktop/installing-github-desktop) sur votre machine
+- [x] [installer GitHub Desktop](https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/installing-and-authenticating-to-github-desktop/installing-github-desktop) sur votre machine
 
-- [ ] [cloner](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) le dépôt de code de ce laboratoire sur votre machine
+- [x] [cloner](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) le dépôt de code de ce laboratoire sur votre machine
 
   - :warning: Ne pas cloner le code dans un chemin qui contient des espaces ou des accents.
   - Facultatif : Lire cette [Présentation de GitHub dans Visual Studio Code](https://learn.microsoft.com/fr-ca/training/modules/introduction-to-github-visual-studio-code/) de Microsoft. 
 
-- [ ] faire un build du code
+- [x] faire un build du code
 
   - Ouvrir le dossier du projet en VSCode **File > Open Folder...**
 
@@ -123,7 +123,7 @@ Vous pouvez cocher chaque étape dans la liste suivante:
     ...
     ```
 
-- [ ] exécuter les tests
+- [x] exécuter les tests
 
   - Dans le terminal, taper `npx jest --colors lab0.test.ts` pour exécuter les tests du lab 0.
 
@@ -230,18 +230,18 @@ Vous pouvez cocher chaque étape dans la liste suivante:
 
     Une croix (rouge), p. ex. `× devrait trouver votre nom` signifie qu'un test échoue, tandis qu'un test réussi s'affiche avec une coche `√` (verte).
 
-- [ ] exécuter le serveur sur localhost
+- [x] exécuter le serveur sur localhost
 
   - Dans le terminal, `npm start`
 
-- [ ] exécuter l'application avec un navigateur moderne à l'URL [http://localhost:3000](http://localhost:3000)
-  - [ ] démarrer une partie avec un joueur
-  - [ ] essayer le bouton pour jouer
-  - [ ] regarder la page Classement
-  - [ ] revenir à la page d'accueil pour voir le jeu
+- [x] exécuter l'application avec un navigateur moderne à l'URL [http://localhost:3000](http://localhost:3000)
+  - [x] démarrer une partie avec un joueur
+  - [x] essayer le bouton pour jouer
+  - [x] regarder la page Classement
+  - [x] revenir à la page d'accueil pour voir le jeu
 
-- [ ] regarder dans VSCode la structure des pages statiques dans `views/` ainsi que la barre de navigation (`views/includes/navbar.pug`) qui est [incluse](https://pugjs.org/language/includes.html) dans les pages statiques (`views/index.pug`,`views/stats.pug`).
-- [ ] regarder comment dans `src/app.ts` un gabarit Pug `views/index.pug` est utilisé:
+- [x] regarder dans VSCode la structure des pages statiques dans `views/` ainsi que la barre de navigation (`views/includes/navbar.pug`) qui est [incluse](https://pugjs.org/language/includes.html) dans les pages statiques (`views/index.pug`,`views/stats.pug`).
+- [x] regarder comment dans `src/app.ts` un gabarit Pug `views/index.pug` est utilisé:
 
   ```typescript
     // Route pour jouer (index)
@@ -277,10 +277,10 @@ Vous pouvez cocher chaque étape dans la liste suivante:
 
 La documentation des fonctionnalités se trouve dans le fichier [docs/Squelette.md](docs/Squelette.md). Dans cette étape, vous devez:
 
-- [ ] dans le fichier `docs/Squelette.md` qui sert de documentation, ajouter les informations pour vous identifier dans la section **Identification de l'étudiant**.  
+- [x] dans le fichier `docs/Squelette.md` qui sert de documentation, ajouter les informations pour vous identifier dans la section **Identification de l'étudiant**.  
   Vérifier le travail avec le test, `npx jest --colors identification-lab0.test.ts`
 
-- [ ] dans le fichier `docs/Squelette.md`, ajouter le cas d'utilisation *Redémarrer* (texte) juste après [le texte du cas d'utilisation *Jouer aux dés*](docs/Squelette.md#jouer-aux-dés):
+- [x] dans le fichier `docs/Squelette.md`, ajouter le cas d'utilisation *Redémarrer* (texte) juste après [le texte du cas d'utilisation *Jouer aux dés*](docs/Squelette.md#jouer-aux-dés):
 
   ```markdown
   #### Redémarrer
@@ -289,7 +289,7 @@ La documentation des fonctionnalités se trouve dans le fichier [docs/Squelette.
   2. Le Système termine tous les jeux en cours et redémarre l'application.
   ```
 
-- [ ] ajouter le cas d'utilisation [au diagramme UML](docs/modeles/dcu.puml) (PlantUML)
+- [x] ajouter le cas d'utilisation [au diagramme UML](docs/modeles/dcu.puml) (PlantUML)
 
   - installer l'extension [PlantUML](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml) dans VSCode
 
@@ -365,16 +365,16 @@ La documentation des fonctionnalités se trouve dans le fichier [docs/Squelette.
 
 > Les modèles de conception guident l'implémentation. Vous aurez à revenir à cette section durant ce tutoriel.
 
-- [ ] ajouter un nouveau DSS `docs/modeles/dss-redemarrerJeu.puml` pour le cas d'utilisation (PlantUML)
+- [x] ajouter un nouveau DSS `docs/modeles/dss-redemarrerJeu.puml` pour le cas d'utilisation (PlantUML)
   
   Faire un diagramme en PlantUML qui ressemble à ceci:  
   ![DSS pour le scénario Redémarrer](https://www.plantuml.com/plantuml/svg/0/NOynQWD134NxEOLmvHGXlJ6B0waCQRAGNin-6v4TpKRI52RuFl4vzcAPf4c8Yjyy_d_euC4MhSp9tqGNDYxaSPdHqoJ_8nDEtEOuLGtb0dg5JQpyjult1isWZqJzdk7EPppESbRAq82bQmg9BdWQHrfgC_gMvVMcR59fByCBflLMs0osVv0XSOvgjDaTQqEp3R5JJbqNacLXZOx6YyVwMV03FUNxmMb7zZjqHDlU9Jf0f_xI5m00 "DSS pour le scénario Redémarrer")
 
-- [ ] prendre connaissance de la postcondition du contrat d'opération :
+- [x] prendre connaissance de la postcondition du contrat d'opération :
 
   > Toutes les instances de Joueur en cours ont été supprimées.
 
-- [ ] ajouter une nouvelle réalisation de cas d'utilisation (RDCU) `docs/modeles/rdcu-redemarrerJeu.puml` pour l'opération système `redemarrerJeu()` (PlantUML)
+- [x] ajouter une nouvelle réalisation de cas d'utilisation (RDCU) `docs/modeles/rdcu-redemarrerJeu.puml` pour l'opération système `redemarrerJeu()` (PlantUML)
 
   Faire un diagramme en PlantUML qui ressemble à ceci:  
   ![RDCU pour redémarrerJeu](https://www.plantuml.com/plantuml/svg/0/RP31IWD138RlynIX5rkmBx38KkXwANXHzBINE9lMMMSoGoO3-aYz-mRxOiOAWk8bWVny-VzaLnL5MugklWOkA9YWwdiagnBy7sMY8xQenypAc0YUI2PaT1hKYFjX_mWbDm6XQJad524vK7C6Q_2X82kiEfiCD51T0LRmRjjxwBu8-W7M6yTP2IISNjJ4IZ4pxCrLbez8JKPUVszPpXMewiZnAZ_Ff23e0zFcj-MScq6r6_aEoys37SQdwyDbs5zIpCbvsFRMpSr7Gla_mkrR8L6t8vxiCPy0 "RDCU pour redémarrerJeu")
@@ -385,7 +385,7 @@ La documentation des fonctionnalités se trouve dans le fichier [docs/Squelette.
 
 ### 3. Écrire des tests pour la fonctionnalité
 
-- [ ] ajouter de nouveaux cas de test pour Redémarrer (Jest/SuperTest)
+- [x] ajouter de nouveaux cas de test pour Redémarrer (Jest/SuperTest)
 
   - ouvrir le fichier `test/routes/jeuRouter-redemarrerJeu-lab0.test.ts`
 
@@ -405,22 +405,22 @@ La documentation des fonctionnalités se trouve dans le fichier [docs/Squelette.
 
     Le test doit vérifier qu'il n'y a plus de joueurs.
 
-- [ ] vérifier que les tests ne passent pas (Jest/SuperTest)
+- [x] vérifier que les tests ne passent pas (Jest/SuperTest)
   `npx jest --colors jeuRouter-redemarrerJeu-lab0.test.ts` va indiquer `n failed`
 
   Cela est normal, car nous avons écrit plusieurs tests avant d'avoir écrit les fonctionnalités, selon la pratique de *Développement piloté par les tests*.
 
 ### 4. Écrire la fonctionnalité
 
-- [ ] ajouter l'opération système `redemarrerJeu` dans le contrôleur GRASP `src/core/jeuDeDes.ts` (TypeScript)
+- [x] ajouter l'opération système `redemarrerJeu` dans le contrôleur GRASP `src/core/jeuDeDes.ts` (TypeScript)
 
   Cette méthode correspond à l'opération système (unique) définie dans le diagramme de séquence système (DSS).
 
-- [ ] coder l'opération `redemarrerJeu` selon la RDCU (TypeScript)
+- [x] coder l'opération `redemarrerJeu` selon la RDCU (TypeScript)
 
   Pour la logique du code, consulter le diagramme de séquence (RDCU) créé à l'étape précédente.
 
-- [ ] ajouter une nouvelle route, dans `src/routes/jeuRouter.ts` (Express)
+- [x] ajouter une nouvelle route, dans `src/routes/jeuRouter.ts` (Express)
 
   - ajouter la fonction `redemarrerJeu`, juste avant la fonction `init()`
 
@@ -434,17 +434,17 @@ La documentation des fonctionnalités se trouve dans le fichier [docs/Squelette.
 
     Il s'agit d'une *définition de [route](http://expressjs.com/en/guide/routing.html)* dans *Express*. Lorsqu'il y aura une requête HTTP `GET` avec `api/v1/jeu/redemarrerJeu`, la fonction `redemarrerJeu` dans la même classe sera appelée (*callback*). Cette fonction est aussi appelée un *route handler* en anglais.
 
-- [ ] faire un build (Node.js)
+- [x] faire un build (Node.js)
 
   `npm run build` devrait passer sans erreurs. Si vous avez des erreurs, essayer de lire et de comprendre pourquoi. Si vous êtes bloqués pendant plus de 5 minutes, demandez de l'aide à un auxiliaire d'enseignement.
 
-- [ ] vérifier que les tests pour la nouvelle fonctionnalité redémarrerJeu passent: `npx jest --colors jeuRouter-redemarrerJeu-lab0.test.ts`. (Node.js)
+- [x] vérifier que les tests pour la nouvelle fonctionnalité redémarrerJeu passent: `npx jest --colors jeuRouter-redemarrerJeu-lab0.test.ts`. (Node.js)
 
-- [ ] vérifier que TOUS les tests des fonctionnalités de base passent (Node.js)
+- [x] vérifier que TOUS les tests des fonctionnalités de base passent (Node.js)
 
   `npx jest --colors --coverage --testPathIgnorePatterns=lab0.test.ts` devrait indiquer que tous les tests passent.
 
-- [ ] ajouter le bouton dans `views/index.pug` (PugJS.org)
+- [x] ajouter le bouton dans `views/index.pug` (PugJS.org)
 
   > Facultatif : pour une explication de PUG (anciennement Jade) avec Express, il y a [cette vidéo](https://www.youtube.com/watch?v=DSp9ExFw3Ig).
 
@@ -469,7 +469,7 @@ La documentation des fonctionnalités se trouve dans le fichier [docs/Squelette.
       button#redemarrer Redémarrer
   ```
 
-- [ ] ajouter le JavaScript pour le bouton afin d'invoquer le nouveau service
+- [x] ajouter le JavaScript pour le bouton afin d'invoquer le nouveau service
 
   Dans `public/lib/main.js` on trouve le code pour les boutons. Après la logique pour traiter le clic sur le bouton *Démarrer* (`demarrer.addEventListener("click", function(){...});`, ajouter une nouvelle logique pour le bouton *Redémarrer* qui fait un `GET` sur `/api/v1/jeu/redemarrerJeu`:
 
