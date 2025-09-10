@@ -21,7 +21,7 @@ c->d2 : v2 = valeur
 note right : selon Expert
 c->j : incNbParties()
 note right : selon Expert
-opt v1 + v2 == 7
+opt v1 + v2 <= 10
   c->j : incNbPartiesGagnees()
   note right : selon Expert
 end opt
