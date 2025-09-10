@@ -180,6 +180,10 @@ Voici la même figure, mais sous forme de diagramme de séquence avec l'acteur. 
 
 ![Diagramme de séquence système](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/profcfuhrmanets/log210-jeu-de-des-node-express-ts/master/docs/modeles/dss-jouer.puml)
 
+### Diagramme de classes logicielles
+
+![App](https://www.plantuml.com/plantuml/svg/pLHDRnf13BtpAwoSY828LEbbWr1GIQgYbYRa1qHcnqLJxSvix1aAGldlrNvDTW5HjPToMUqyUvuzVhRln24xdoQTE44Hc1BiEW00WvSr9kGv0kFJ9N41zfQC8iJTomZMLgiIt7Dyw-1I76FieEHKz0Dzue0sZemIk6UsN8NfxMhdDuYjeWPBUVcBMMEYrICofkI8oyirrQIwtA8iUMw6mq0oivuyXvSPcqOWZhLPrSZoAvgOM5hFRU2VSMMeRUqTqA08QgDvRjDkmtZPykebHoBLuB4mfQbTybNkjuSvEtl-Fi-n7JIYty9Um02qWzt2MwZNtBe7wutwYsBVXCkJX0dLzdwZnSc_oKL-IbEI8DZFGZ-9u1jce_9P_KhKSUMYhYEOKdtu40uzHIao4y_8dn0bZy0dx8uurUPFB8tnQ2eOqc_wCZKpgvLib61XlQFtfkNY6449Ls1iZMERZz-CV1GALnVsXF48NQjKJAyHBEZLaxXHCNqorR7JrY1l-u2c_ZnvukrpyR2hHsGXzIHzM51iMGMjq6p7upvmtcuBaimQeL5n_RYZeOsBO4uRz-1D4RNLwgLQvvpYu8No7lza5NqS3hl58Igp-PzfjnT6ewVFMkxsg9nrgjfeTp3CaoohbnrjCYQHIPP5KFrVJR8iqJ7cN6Nlf5gfX7uXKsl33ugPbGPzM9I3mHWkhY-gdNY8Jwdplb62SxqGxiWedoQ_0G00 "App")
+
 ### Contrats d'opération et Réalisations de cas d'utilisation (RDCU)
 
 #### Opération: `démarrerJeu(nom:String)`
