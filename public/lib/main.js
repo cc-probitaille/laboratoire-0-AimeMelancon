@@ -35,9 +35,7 @@ window.addEventListener("load", function () {
         }
     });
 
-    document
-        .getElementById("redemarrer")
-        .addEventListener("click", function () {
+    document.getElementById("redemarrer").addEventListener("click", function () {
             fetch("/api/v1/jeu/redemarrerJeu").then(function () {
                 location.reload();
             });
