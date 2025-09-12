@@ -536,7 +536,7 @@ Il existe un lien dans la barre de navigation «Classement» pour la page `/stat
 
 ### 8. Générer le rapport en format PDF
 
-- [ ] Assurez-vous de générer une version PDF de votre fichier `docs/Squelette.md` nommé `docs/lab0.pdf`
+- [x] Assurez-vous de générer une version PDF de votre fichier `docs/Squelette.md` nommé `docs/lab0.pdf`
   > Un menu contextuel devrait vous permettre de réaliser cette tâche dans Visual Studio Code si vous avez installé les bonnes extensions.
   > Il se peut que vous ayez à installer d'autres modules (un _exporter_ pour Chromium). 
   > Il se peut que le fichier soit créé dans un répertoire `out/docs/` aussi avec le nom `Squelette.pdf`.
@@ -546,8 +546,8 @@ Il existe un lien dans la barre de navigation «Classement» pour la page `/stat
 Il peut arriver qu'une équipe soit composée des personnes qui travaillent beaucoup moins que les autres.
 Pour vous sensibiliser aux problèmes typiques et vous outiller à agir rapidement en cas de difficultés, il y a un texte à lire et à intérioriser.
 
-- [ ] Lire le texte [Faire face aux parasites et aux mollassons dans une équipe](https://etsmtl365-my.sharepoint.com/:w:/g/personal/christopher_fuhrman_etsmtl_ca/EcmQ4mhrCt5Ml9FUOiAPMmQBqtH3Z65GXrMLngDaeRCP8g?e=8JXrlf)
-- [ ] Écrire une réponse dans le fichier `docs/experience-parasites-mollassons.md` du dépôt suivant les directives dans ce fichier.
+- [x] Lire le texte [Faire face aux parasites et aux mollassons dans une équipe](https://etsmtl365-my.sharepoint.com/:w:/g/personal/christopher_fuhrman_etsmtl_ca/EcmQ4mhrCt5Ml9FUOiAPMmQBqtH3Z65GXrMLngDaeRCP8g?e=8JXrlf)
+- [x] Écrire une réponse dans le fichier `docs/experience-parasites-mollassons.md` du dépôt suivant les directives dans ce fichier.
 
 ### 10. Vérifier la correction automatique
 
